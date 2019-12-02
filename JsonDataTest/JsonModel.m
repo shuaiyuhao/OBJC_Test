@@ -10,4 +10,10 @@
 
 @implementation JsonModel
 
++ (NSDictionary<NSString *, id> *)modelCustomPropertyMapper {
+    return @{
+        @"name" : @"name",
+        @"value" : @"id",
+    };
+}
 @end

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		363F3B9A23931855005E563A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F3B9923931855005E563A /* AppDelegate.m */; };
-		363F3B9D23931855005E563A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F3B9C23931855005E563A /* SceneDelegate.m */; };
 		363F3BA023931855005E563A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F3B9F23931855005E563A /* ViewController.m */; };
 		363F3BA323931855005E563A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363F3BA123931855005E563A /* Main.storyboard */; };
 		363F3BA523931856005E563A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363F3BA423931856005E563A /* Assets.xcassets */; };
@@ -16,6 +15,10 @@
 		363F3BAB23931856005E563A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F3BAA23931856005E563A /* main.m */; };
 		363F3BB523931856005E563A /* JsonDataTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F3BB423931856005E563A /* JsonDataTestTests.m */; };
 		363F3BC023931856005E563A /* JsonDataTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F3BBF23931856005E563A /* JsonDataTestUITests.m */; };
+		363F3BCF23931E7F005E563A /* JsonDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F3BCE23931E7F005E563A /* JsonDataTableViewCell.m */; };
+		363F3BD223932292005E563A /* JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F3BD123932292005E563A /* JsonModel.m */; };
+		363F3BD52393254E005E563A /* BookListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F3BD42393254E005E563A /* BookListApi.m */; };
+		FD9353095405525B8BD37922 /* libPods-JsonDataTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C35A9D349FAAC19F6CAA5375 /* libPods-JsonDataTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		363F3B9523931855005E563A /* JsonDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		363F3B9823931855005E563A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		363F3B9923931855005E563A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		363F3B9B23931855005E563A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		363F3B9C23931855005E563A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		363F3B9E23931855005E563A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		363F3B9F23931855005E563A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		363F3BA223931855005E563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,15 @@
 		363F3BBB23931856005E563A /* JsonDataTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonDataTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		363F3BBF23931856005E563A /* JsonDataTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonDataTestUITests.m; sourceTree = "<group>"; };
 		363F3BC123931856005E563A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363F3BCD23931E7F005E563A /* JsonDataTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonDataTableViewCell.h; sourceTree = "<group>"; };
+		363F3BCE23931E7F005E563A /* JsonDataTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonDataTableViewCell.m; sourceTree = "<group>"; };
+		363F3BD023932292005E563A /* JsonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonModel.h; sourceTree = "<group>"; };
+		363F3BD123932292005E563A /* JsonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonModel.m; sourceTree = "<group>"; };
+		363F3BD32393254E005E563A /* BookListApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookListApi.h; sourceTree = "<group>"; };
+		363F3BD42393254E005E563A /* BookListApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookListApi.m; sourceTree = "<group>"; };
+		65DFDA82732C76F8D75F629B /* Pods-JsonDataTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonDataTest.release.xcconfig"; path = "Target Support Files/Pods-JsonDataTest/Pods-JsonDataTest.release.xcconfig"; sourceTree = "<group>"; };
+		9F10AC3C4F5F4C2524679CE4 /* Pods-JsonDataTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonDataTest.debug.xcconfig"; path = "Target Support Files/Pods-JsonDataTest/Pods-JsonDataTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C35A9D349FAAC19F6CAA5375 /* libPods-JsonDataTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JsonDataTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9353095405525B8BD37922 /* libPods-JsonDataTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +99,8 @@
 				363F3BB323931856005E563A /* JsonDataTestTests */,
 				363F3BBE23931856005E563A /* JsonDataTestUITests */,
 				363F3B9623931855005E563A /* Products */,
+				4A85528F6258FED03F5FD1A8 /* Pods */,
+				A96AD072A02403C66821DB16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +119,6 @@
 			children = (
 				363F3B9823931855005E563A /* AppDelegate.h */,
 				363F3B9923931855005E563A /* AppDelegate.m */,
-				363F3B9B23931855005E563A /* SceneDelegate.h */,
-				363F3B9C23931855005E563A /* SceneDelegate.m */,
 				363F3B9E23931855005E563A /* ViewController.h */,
 				363F3B9F23931855005E563A /* ViewController.m */,
 				363F3BA123931855005E563A /* Main.storyboard */,
@@ -115,6 +126,12 @@
 				363F3BA623931856005E563A /* LaunchScreen.storyboard */,
 				363F3BA923931856005E563A /* Info.plist */,
 				363F3BAA23931856005E563A /* main.m */,
+				363F3BCD23931E7F005E563A /* JsonDataTableViewCell.h */,
+				363F3BCE23931E7F005E563A /* JsonDataTableViewCell.m */,
+				363F3BD023932292005E563A /* JsonModel.h */,
+				363F3BD123932292005E563A /* JsonModel.m */,
+				363F3BD32393254E005E563A /* BookListApi.h */,
+				363F3BD42393254E005E563A /* BookListApi.m */,
 			);
 			path = JsonDataTest;
 			sourceTree = "<group>";
@@ -137,6 +154,23 @@
 			path = JsonDataTestUITests;
 			sourceTree = "<group>";
 		};
+		4A85528F6258FED03F5FD1A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F10AC3C4F5F4C2524679CE4 /* Pods-JsonDataTest.debug.xcconfig */,
+				65DFDA82732C76F8D75F629B /* Pods-JsonDataTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A96AD072A02403C66821DB16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35A9D349FAAC19F6CAA5375 /* libPods-JsonDataTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 363F3BC423931856005E563A /* Build configuration list for PBXNativeTarget "JsonDataTest" */;
 			buildPhases = (
+				353E11104060E01FDF52DAD5 /* [CP] Check Pods Manifest.lock */,
 				363F3B9123931855005E563A /* Sources */,
 				363F3B9223931855005E563A /* Frameworks */,
 				363F3B9323931855005E563A /* Resources */,
@@ -262,15 +297,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		353E11104060E01FDF52DAD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JsonDataTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		363F3B9123931855005E563A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				363F3BA023931855005E563A /* ViewController.m in Sources */,
+				363F3BD52393254E005E563A /* BookListApi.m in Sources */,
+				363F3BCF23931E7F005E563A /* JsonDataTableViewCell.m in Sources */,
+				363F3BD223932292005E563A /* JsonModel.m in Sources */,
 				363F3B9A23931855005E563A /* AppDelegate.m in Sources */,
 				363F3BAB23931856005E563A /* main.m in Sources */,
-				363F3B9D23931855005E563A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +499,7 @@
 		};
 		363F3BC523931856005E563A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F10AC3C4F5F4C2524679CE4 /* Pods-JsonDataTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +517,7 @@
 		};
 		363F3BC623931856005E563A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65DFDA82732C76F8D75F629B /* Pods-JsonDataTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

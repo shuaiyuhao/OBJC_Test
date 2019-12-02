@@ -10,4 +10,13 @@
 
 @implementation BookListApi
 
+- (YTKRequestMethod)requestMethod {
+    return YTKRequestMethodGET;
+}
+
+- (NSString *)requestUrl {
+    return @"/jsondecodable/courses";
+}
+
+
 @end

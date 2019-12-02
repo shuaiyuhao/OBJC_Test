@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JsonDataTableViewCell : UITableViewCell
 
++ (CGFloat)cellHeight;
++ (NSString *)cellIdentifier;
+
+- (void)configWithData:(id)data;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <YYModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JsonModel : NSObject
+
+@property (nonatomic,copy) NSString             *name;
+@property (nonatomic,copy) NSString             *value;
 
 @end
 
